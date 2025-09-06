@@ -12,7 +12,8 @@ body {
 }
 
 .header,
-.footer {
+.footer,
+.hero-container {
     background-color: #1F2937;
     display: flex;
  }
@@ -37,7 +38,8 @@ ul {
     gap: 16px;
 }
 
-a {
+a,
+.hero-secondary-text {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -52,4 +54,44 @@ a {
     align-items: center;
     color: #E5E7EB;
     height: 54px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    gap: 15px;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    text-wrap: balance;
+}
+
+.hero-image > img {
+    width: 300px;
+    height 300px;
+    object-fit: contain;
+}
+
+.hero-text-container,
+.hero-image {
+    margin: 70px 0;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.signup-button {
+    border-radius: 6px;
 }
