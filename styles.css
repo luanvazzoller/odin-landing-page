@@ -75,6 +75,7 @@ a,
 .hero-secondary-text {
     text-wrap: balance;
     display: flex;
+    font-weight: 328;
 }
 
 .hero-image > img {
@@ -149,9 +150,36 @@ a,
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 100px;
 }
 
-.cta-text-wraper {
+.cta-wraper {
     background-color: #3882F6;
-    
+    color: #E5E7EB;
+    padding: 45px 50px;
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+
+.main-cta-text {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.secondary-cta-text {
+    font-weight: 328;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 6px 30px;
 }
